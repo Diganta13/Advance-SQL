@@ -22,7 +22,8 @@ Create FUNCTION Tabular_single_para (@province varchar(50))
 RETURNS TABLE AS
 
 RETURN
-  SELECT Distinct [Order ID], [Order Date] 
+
+SELECT Distinct [Order ID], [Order Date] 
 	FROM Orders
 	WHERE Province = @province;
   
