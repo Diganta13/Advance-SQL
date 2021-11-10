@@ -34,6 +34,7 @@ This function will also return a table but using multiple parameter.
 Create FUNCTION Tabular_multi_para (@Region varchar(50), @Ship varchar(50))
 RETURNS TABLE AS
 RETURN
-	SELECT Distinct [Order ID], [Order Date], Region, [Ship Mode] 
+
+SELECT Distinct [Order ID], [Order Date], Region, [Ship Mode] 
 	FROM Orders
 	WHERE Region = @Region and [Ship Mode] = @Ship;
