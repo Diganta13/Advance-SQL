@@ -1,7 +1,7 @@
 # Over Operator
 This SQL code is on NORTHWIND database. download and load it then just run this query.
 
-'''SQL
+```SQL
 --Query-01
 SELECT row_number() over(ORDER BY prod.productid) rownum, cat.CategoryName ,
                                                           prod.ProductName
@@ -29,4 +29,4 @@ SELECT prod.ProductName,
 FROM [Order Details] ord
 INNER JOIN Products prod ON ord.ProductID=prod.ProductID
 GROUP BY prod.ProductName 
-'''
+```
