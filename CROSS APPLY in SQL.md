@@ -1,4 +1,4 @@
-# CROSS APPLY technique for query optimization
+# CROSS APPLY technique for SQL query optimization
 
 Use Northwind database for this.
 
