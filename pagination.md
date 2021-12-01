@@ -5,7 +5,7 @@ results on the separated page; this is the main idea of the pagination.
 
 Here I have given a simple sql script for pagination with OFFSET and FETCH option. It's very easy and you can apply your pagination modifing script as your purpose.
 
-'''SQL
+```SQL
 DECLARE @PageNumber AS INT
 DECLARE @RowsOfPage AS INT
 SET @PageNumber=1
