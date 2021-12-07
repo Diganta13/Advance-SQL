@@ -16,17 +16,17 @@ CREATE TABLE Employee_clustered
  [Salary] int,
  [Gender] nvarchar(10),
  [City] nvarchar(50)
-)```
+)
 
-By this query SQL automatically generates clustered index by ID
+--By this query SQL automatically generates clustered index by ID
 
-```SQL
+
 Create Clustered Index Employee_Gender_Salary
-ON Employee_clustered(Gender DESC, Salary ASC)```
+ON Employee_clustered(Gender DESC, Salary ASC)
 
 By this query you can create new index on your desired columns.
 
-```SQL
+
 execute sp_helpindex Employee_clustered```
 
 By this you can check your indexes.
