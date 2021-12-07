@@ -1,4 +1,4 @@
-# Indexing in SQL
+# Clustered Index in SQL
 Indexing is a procedure that returns your requested data faster from the defined table. Without indexing, 
 the SQL server has to scan the whole table for your data. By indexing, SQL server do the exact same thing 
 when you searched for a content in a book by checking the index page. In the same way table’s index allows 
