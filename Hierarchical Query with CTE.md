@@ -11,7 +11,8 @@ AS ( SELECT EmpID, FirstName, LastName, ManagerID
 FROM Employee
 WHERE ManagerID IS NULL )
 SELECT *
-FROM MyCTE ```
+FROM MyCTE 
+```
 
 # Building a Recursive CTE
 In the following examples, you will learn how to harness the power of a recursive CTE query by fulfilling a common business requirement, 
@@ -53,4 +54,5 @@ WHERE ManagerID IS NULL
 
 SELECT EmpID, FirstName, LastName, ManagerID
 FROM Employee
-WHERE ManagerID IS NOT NULL```
+WHERE ManagerID IS NOT NULL
+```
