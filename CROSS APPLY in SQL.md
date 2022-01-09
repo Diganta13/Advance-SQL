@@ -2,7 +2,7 @@
 
 Use Northwind database for this.
 
-Before cross apply. Please check execution plan by pressing "CTRL + L" for better understanding.
+Before cross apply. Please check execution plan by pressing "CTRL+L" for better understanding.
 ``` SQL 
  Select cust.CompanyName, 
 	   (Select top 1 OrderID
