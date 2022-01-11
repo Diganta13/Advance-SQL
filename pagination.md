@@ -1,4 +1,5 @@
-# Pagination in SQL SERVER
+# Pagination with SQL in SQL SERVER
+
 Pagination is a process that is used to divide a large data into smaller discrete pages, and this process is also known as paging. 
 Pagination is commonly used by web applications and can be seen on Google. When we search for something on Google, it shows the 
 results on the separated page; this is the main idea of the pagination.
